@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site portfolio David Dahan Développeur Web" />  
+    <title>David Dahan Developpeur Web</title>
+
+    <!-- CSS de bootstrap en cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Favicon-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- version script kit Font Awesome de mon account personnel-->
+    <!-- <script src="https://kit.fontawesome.com/6fdc91d713.js" crossorigin="anonymous"></script> -->
+    
+    <!-- utilisation de la librairie AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- utilisation de la librairie animate css par cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- CSS personnel Toujours apres celui du framework -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+</head>
+
+<!-- je n'ai pas réussi à faire fonctionner le scrollspy de bootstrap -->
+<body id="top">
+  <!-- <div class="relative"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar-target">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" height="60px" width="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item" id="nav-item-propos">
+                  <a class="nav-link" href="#A_Propos">A Propos</a>
+                </li>
+                <li class="nav-item" id="nav-item-competences">
+                  <a class="nav-link" href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item" id="nav-item-parcours">
+                  <a class="nav-link" href="#parcours">Parcours</a>
+                </li>
+                <li class="nav-item" id="nav-item-realisations">
+                  <a class="nav-link" href="#Réalisations">Réalisations</a>
+                </li>
+                <!-- <li class="nav-item" id="nav-item-interets">
+                  <a class="nav-link" href="#">Intérêts</a>
+                </li> -->
+                <li class="nav-item" id="nav-item-contact">
+                  <a class="nav-link" href="#contact">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+     <div class="sphere_1 animate__animated animate__bounce animate__repeat-2"><img class="img-sphere-1" src="assets/img/ovalShadow-239ef2cb5dd05390d4efa0a31df9218b.svg" alt=""></div>   
+     <div class="sphere_2 animate__animated animate__bounce animate__repeat-2"><img class="img-sphere-2" src="assets/img/oval-45395e7af01d2fae93738e9d18b8b5e2.svg" alt=""></div> 
+     <!-- <div><img src="assets/img/ovalShadow-2.svg" alt=""></div>  -->
+    
+    <div class="sphere_3 animate__animated animate__shakeX animate__repeat-2" id="sphere_3"><img class="img-sphere-3" src="assets/img/ovalShadow-2.svg" alt="" srcset=""></div>
+    <div class="sphere_4 animate__animated animate__shakeX animate__repeat-2" id="sphere_4"><img class="img-sphere-4" src="assets/img/ovalShadow-239ef2cb5dd05390d4efa0a31df9218b.svg" alt="" srcset=""></div>
+    
+    <!-- </div> -->
+      
+   
+   
+    <!-- Masthead-->
+   <main>
+   <header class="masthead bg-premier text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image-->
+        <!-- container-3 rajoute des specificités a container-2 -->
+        <div class="container_2 container_3 mt-5 animate__animated animate__pulse animate__repeat-3">
+        <img class="masthead-avatar mb-0 animate__animated animate__pulse animate__repeat-2" src="assets/img/photo_dahan_3.png" alt="..." />
+        <!-- <img class="col-3" src="assets/img/photo_dahan_5.jpg" alt=""> -->
+        </div>
+        <!-- Masthead Heading-->
+        <div class="container_1 mt-5 animated_heading">
+        <h1 class="masthead-heading mb-0 animated_heading">David Dahan</h1>
+        <h3 class="masthead-heading mb-0 animated_heading">Développeur Web et Web Mobile</h3>
+       </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus optio unde asperiores rem autem ex est illo! Est, quam recusandae nihil numquam, reprehenderit tenetur architecto minus hic quo assumenda voluptates.
+          
+        </p>
+      </div> 
+  </header>
+  
+  <!-- séparateur -->
+  
+  <!-- <div class="container-fluid bg-separe text-white">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div> -->
+  
+  
+   
+  
+  <!-- je place le scrollSpy ici : il entoure toute les sections mais ca ne fonctionne pas ?-->
+  <!-- <div data-spy="scroll" data-target="#navbar-target" data-offset="0"> -->
+   <!-- Section A propos-->
+   <section class="page-section bg-premier text-white" id="A_Propos">
+    
+    <div class="container d-flex align-items-center flex-column">
+        <!-- About Section Heading-->
+        <!-- <div class="container_1"> -->
+        <h2 class="page-section-heading text-center text-uppercase text-white col-3 animated_heading">A propos</h2>
+        <!-- </div> -->
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+            <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, magni pariatur perspiciatis reprehenderit neque modi incidunt sit beatae dolorum culpa minus distinctio quia? Pariatur, neque laudantium. Ex commodi doloribus eius.</p></div>
+            <div class="col-lg-4 me-auto"><p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae aliquid temporibus ex architecto rem vitae possimus. Atque, pariatur eos. Numquam, aspernatur. Officia, mollitia soluta! Cupiditate qui sint quos. In, aliquid.</p></div>
+        </div>
+        <!-- About Section Button-->
+        <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="">
+                <i class="fas fa-download me-2"></i>
+                Mon CV !
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- séparateur -->
+  
+<!-- <div class="container-fluid bg-separe text-white">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div> -->
+
+<!-- je place ici l'icone de back to top  -->
+<!-- <a id="back-to-top" href="#top"><i class="fas fa-angle-double-up"></i></a> -->
+<!-- <a id="back-to-top" href="#top"><i class="fa fa-arrow-circle-up"></i></a> -->
+<a id="back-to-top" href="#top"><i class="fa fa-arrow-up"></i></a>
+
+<!-- Competence Section-->
+
+<section class="page-section bg-premier text-white" id="competences">
+  <div class="container d-flex align-items-center flex-column">
+    <!-- About Section Heading-->
+    <!-- <div class="container_1"> -->
+    <h2 class="page-section-heading text-center text-uppercase text-white col-3 animated_heading">Compétences</h2>
+    <!-- </div> -->
+    <!-- Icon Divider-->
+    <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    
+   
+  </div>
+<!--Compétences Section Content-->
+
+  <div class="row justify-content-center">
+    <div class="col-lg-5 col-6 text-center mb-3">
+      <h3>Développement Web et Web Mobile</h3>
+    </div>
+  </div>
+  <div class="row justify-content-center mb-3">
+    <div class="col-lg-4 col-6 text-center mb-3">
+      <h3>Full-Stack</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    
+      <div class="col-lg-4 col-6 text-center mb-3">
+        <i class="fab fa-html5" style="font-size:70px; color:rgb(21, 69, 226); background-color:beige;"></i>
+        <p>HTML-5</p>
+      </div>
+      <div class="col-lg-4 col-6 text-center mb-3">
+        <i class="fab fa-js" style="font-size:70px; color:rgb(229, 255, 0);background-color:black;"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="col-lg-4 col-12 text-center mb-3">
+        <i class="fab fa-css3-alt" style="font-size:70px; color:rgb(255, 0, 200); background-color:beige;"></i>
+        <p>CSS-3</p>
+      </div>
+      
+    
+  </div>
+  <div class="row">
+    
+    <div class="col-lg-4 col-6 text-center mb-3">
+      <i class="fab fa-html5" style="font-size:70px; color:rgb(21, 69, 226); background-color:beige;"></i>
+      <p>HTML-5</p>
+    </div>
+    <div class="col-lg-4 col-6 text-center mb-3">
+      <i class="fab fa-js" style="font-size:70px; color:rgb(229, 255, 0);background-color:black;"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="col-lg-4 col-12 text-center mb-3">
+      <i class="fab fa-css3-alt" style="font-size:70px; color:rgb(255, 0, 200); background-color:beige;"></i>
+      <p>CSS-3</p>
+    </div>
+    
+
+  </div>
+  <div class="row">
+    
+    <div class="col-lg-4 col-6 text-center mb-3">
+      <i class="fab fa-html5" style="font-size:70px; color:rgb(21, 69, 226); background-color:beige;"></i>
+      <p>HTML-5</p>
+    </div>
+    <div class="col-lg-4 col-6 text-center mb-3">
+      <i class="fab fa-js" style="font-size:70px; color:rgb(229, 255, 0);background-color:black;"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="col-lg-4 col-12 text-center mb-3">
+      <i class="fab fa-css3-alt" style="font-size:70px; color:rgb(255, 0, 200); background-color:beige;"></i>
+      <p>CSS-3</p>
+    </div>
+    
+
+  </div>
+
+</section>
+
+<!-- séparateur -->
+  
+<!-- <div class="container-fluid bg-separe text-white">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div> -->
+
+<!-- Parcours -->
+
+<section class="page-section bg-premier text-white" id="parcours">
+  <div class="container d-flex align-items-center flex-column">
+    <!-- Parcours Section Heading-->
+    <!-- <div class="container_1"> -->
+    <h2 class="page-section-heading text-center text-uppercase text-white col-3 animated_heading">Parcours</h2>
+    <!-- </div> -->
+    <!-- Icon Divider-->
+    <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    
+   
+  </div>
+<!-- Parcours Section Content-->
+<div class="row">
+  <div class="col-lg-6 text-center">
+    <h3 class="animated_heading mb-4">Expériences</h3>
+    <div class="parcours-box bg-premier" data-aos="fade-left">
+      <span class="badge bg-secondary mb-3">2019</span>
+      <p class="parcours-text"> Expérience 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus aut earum, repudiandae laudantium iure ducimus porro dolores tempore omnis mollitia nemo fugiat quibusdam saepe aliquam error ea dicta nam?</p>
+    </div>
+    <div class="parcours-box bg-premier" data-aos="fade-left">
+      <span class="badge bg-secondary mb-3">2019</span>
+      <p class="parcours-text"> Expérience 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus aut earum, repudiandae laudantium iure ducimus porro dolores tempore omnis mollitia nemo fugiat quibusdam saepe aliquam error ea dicta nam?</p>
+    </div>
+  </div>
+  <div class="col-lg-6 text-center">
+    <h3 class="animated_heading mb-4">Diplômes et Formations</h3>
+    <div class="parcours-box bg-premier" data-aos="fade-left">
+    <span class="badge bg-secondary mb-3">2021</span>
+    <p class="parcours-text">Diplôme 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus aut earum, repudiandae laudantium iure ducimus porro dolores tempore omnis mollitia nemo fugiat quibusdam saepe aliquam error ea dicta nam?</p>
+    </div> 
+    <div class="parcours-box bg-premier" data-aos="fade-left">
+      <span class="badge bg-secondary mb-3">2021</span>
+      <p class="parcours-text">Diplôme 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus aut earum, repudiandae laudantium iure ducimus porro dolores tempore omnis mollitia nemo fugiat quibusdam saepe aliquam error ea dicta nam?</p>
+      </div>  
+  
+  </div>
+  
+</div>
+
+</section>
+
+<!-- séparateur -->
+  
+<!-- <div class="container-fluid bg-separe text-white">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div> -->
+
+<section class="page-section bg-premier text-white" id="Réalisations">
+  <div class="container d-flex align-items-center flex-column">
+    <!-- Réalisations Section Heading-->
+    <!-- <div class="container_1"> -->
+    <h2 class="page-section-heading text-center text-uppercase text-white col-3 animated_heading">Réalisations</h2>
+    <!-- </div> -->
+    <!-- Icon Divider-->
+    <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    
+   
+  </div>
+<!-- Réalisations Section Content-->
+<!-- question:quand je change les marges ici avec des classes bootstrap rien ne change ? il faut que je passe par le css et la class card-->
+<div class="row row-cols-1 row-cols-md-2 g-5 ms-3 me-3">
+  <div class="col">
+    <div class="card px-5 py-5" data-aos="flip-down" >
+      <img src="assets/img/realisation_sm_1.png" class="card-img-top"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title 1</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card px-5 py-5" data-aos="flip-down">
+      <img src="assets/img/realisation_sm_2.png" class="card-img-top"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card px-5 py-5" data-aos="flip-up">
+      <img src="assets/img/realisation_sm_3.png" class="card-img-top"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title 3</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  px-5 py-5" data-aos="flip-up">
+      <img src="assets/img/realisation_sm_4.png" class="card-img-top"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title 4</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- séparateur -->
+  
+<!-- <div class="container-fluid bg-separe text-white">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div> -->
+
+<!-- Contact Section-->
+
+<section class="page-section bg-premier" id="contact">
+  <div class="container">
+      <!-- Contact Section Heading-->
+      <div class="container d-flex align-items-center flex-column"><h2 class="page-section-heading text-center text-uppercase text-white  mb-0 col-3 animated_heading">Contactez Moi</h2>
+      </div>
+      
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+
+      
+
+      <!-- Contact Section Form-->
+      <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                  <!-- Name input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                      <label for="name">Nom et Prénom</label>
+                      <div class="invalid-feedback" data-sb-feedback="name:required">Un nom est requis.</div>
+                  </div>
+                  <!-- Email address input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                      <label for="email">Adresse Email</label>
+                      <div class="invalid-feedback" data-sb-feedback="email:required">Un Email est requis.</div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">Email non valide.</div>
+                  </div>
+                  <!-- Phone number input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                      <label for="phone">Numéro de téléphone</label>
+                      <div class="invalid-feedback" data-sb-feedback="phone:required">Un Numéro de téléphone est requis.</div>
+                  </div>
+                  <!-- Message input-->
+                  <div class="form-floating mb-3">
+                      <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                      <label for="message">Message</label>
+                      <div class="invalid-feedback" data-sb-feedback="message:required">Un Message est requis.</div>
+                  </div>
+                  <!-- Submit success message-->
+                  <!---->
+                  <!-- This is what your users will see when the form-->
+                  <!-- has successfully submitted-->
+                  <div class="d-none" id="submitSuccessMessage">
+                      <div class="text-center mb-3">
+                          <div class="fw-bolder">Envoie du Formulaire réussi !</div>
+                          To activate this form, sign up at
+                          <br />
+                          <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                      </div>
+                  </div>
+                  <!-- Submit error message-->
+                  <!---->
+                  <!-- This is what your users will see when there is-->
+                  <!-- an error submitting the form-->
+                  <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                  <!-- Submit Button-->
+                  <!-- <button class="btn btn-primary btn-xl disabled animated_button" id="submitButton" type="submit">Envoyer</button> -->
+                  <button class="btn btn-primary btn-xl animated_button" type="submit">Envoyer</button>
+                </form>
+          </div>
+      </div>
+  
+      
+    </div>
+  
+    <!-- Google map -->
+
+      <!--Grid row-->
+      <div class="row map-responsive mt-5">
+
+        
+                <iframe src="https://maps.google.com/maps?q=Ille-sur-Têt,33 avenue pasteur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
+             
+      </div>  
+
+        
+      
+      <!-- Fin Google map -->
+  
+</section>
+
+<!-- fin de la balise du scrollSpy -->
+<!-- </div> -->
+
+
+</main>
+<!-- Footer-->
+<footer class="footer text-center">
+  <div class="container">
+      <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Adresse</h4>
+              <p class="lead mb-0 fw-bolder">
+                  David Dahan
+                  <br>
+                  33 Avenue Pasteur
+                  <br>
+                  66130 Ille-sur-Têt
+              </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Autour du Web</h4>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+          </div>
+          <!-- Footer About Text-->
+          <div class="col-lg-4">
+              <h4 class="text-uppercase mb-4">
+                <a class="mention-legale" href="#">Mentions Légales</a>
+              </h4>
+              <!-- <p class="lead mb-0">
+                  
+                  
+                  
+              </p> -->
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Copyright Section-->
+<div class="copyright py-4 text-center text-white">
+  <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+</div>
+  
+  
+  <!-- script js pour AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+  <!-- Bootstrap core JS-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Core theme JS-->
+   <!-- <script src="js/scripts.js"></script> -->
+   <script src="assets/js/script.js"></script>
+   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+   <!-- * *                               SB Forms JS                               * *-->
+   <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    -->
+</body>
+</html>

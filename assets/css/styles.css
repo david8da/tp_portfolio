@@ -1,0 +1,364 @@
+
+    *{
+    box-sizing: border-box;
+    }
+
+    body{
+    /* background-image: url(../img/ovalShadow-239ef2cb5dd05390d4efa0a31df9218b.svg); */
+    /* background-repeat:no-repeat; */
+    
+    /* background:url('../img/ovalShadow-2.svg') no-repeat fixed top 470px right 50px,
+    url('../img/ovalShadow-239ef2cb5dd05390d4efa0a31df9218b.svg') no-repeat fixed top 480px left 0px;
+    background-size: 200px 200px, 350px 350px;  */
+    background-color: rgb(125, 199, 248);
+    
+    /* animation: headShake;  */
+    /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 3s;  */
+    /* don't forget to set a duration! */
+    }
+
+    .relative{
+        position:relative;
+        
+    }
+    .sphere_1{
+        position:absolute;
+        top:10%;
+        left:20%;
+        z-index:2;
+
+    }
+
+    .sphere_2{
+        position:absolute;
+        top:5%;
+        right:10%;
+        z-index:-1;
+    
+    } 
+    .sphere_3{  
+    position:fixed;
+    top:470px;
+    right:50px;
+    z-index:-1;
+    }
+    
+    
+    .sphere_4{  
+        position:fixed;
+        top:480px;
+        left:0px;
+        z-index:-1;
+        }
+    
+     .img-sphere-1{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-sphere-2{
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-sphere-3{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-sphere-4{
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+    .bg-premier{background: linear-gradient(to top, rgb(37, 199, 224, 0.7) , rgb(0, 175, 243, 0.6), rgb(0, 145, 254, 0.5), rgb(89, 103, 239, 0.4), rgb(167, 11, 190, 0.2))!important;}
+    .bg-secondary{
+        background: linear-gradient(to top, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe);
+    
+    }
+    .bg_tertiary{
+         
+        background: linear-gradient(to top, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe);
+       
+    }
+    /* .bg-quatrieme{
+        background: linear-gradient(to right, #c46bd1, #948ff6, #55acff, #0bc3ff, #36d5f1, #36d5f1, #36d5f1, #36d5f1, #0bc3ff, #55acff, #948ff6, #c46bd1)!important;
+    } */
+
+    .bg-light{
+    /* background-color:rgb(122, 101, 212)!important; */
+    /* je mets un glassmorphism */
+
+        background: rgba( 255, 255, 255, 0.00 )!important;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+        backdrop-filter: blur( 5.0px )!important;
+        -webkit-backdrop-filter: blur( 2.5px )!important;
+        border-radius: 10px!important;
+        border: 1px solid rgba( 255, 255, 255, 0.35 )!important;
+        
+
+        
+        
+    }
+    .bg-separe{
+        background: linear-gradient(to top, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe);
+        display:flex;
+        justify-content: space-around;
+        
+        
+    }
+
+    .navbar{
+        /* background-image: linear-gradient(to right, #5190ee, #448ae6, #3684de, #257fd5, #0b79cd); */
+        z-index:1;
+        margin-top: 5rem;
+        font-size:x-large;
+        color:white;
+    }
+
+    
+    .navbar-toggler{
+    border:1px solid black !important;
+
+
+    }
+    
+    .navbar-brand:hover{
+        border:3px solid rgb(98, 8, 112);
+        border-radius: 50px;
+        background-color: rgb(177, 129, 184, 0.3);
+        padding: 8px 8px 8px 8px;
+        
+    }
+    
+    .nav-link{
+    color:white !important;
+
+    }
+
+    .nav-item:hover{
+        border:3px solid rgb(98, 8, 112);
+        border-radius: 8px;
+        background-color: rgb(177, 129, 184, 1);
+    }
+
+    
+    .active {
+        border:3px solid rgb(98, 8, 112);
+        border-radius: 8px;
+        background-color: rgb(177, 129, 184, 1);
+    }
+
+    .masthead .masthead-avatar {
+    width: 10rem;
+   
+    
+    }
+    .masthead-heading{
+        font-size:2.5rem;
+
+    }
+
+    .masthead .masthead-subheading {
+        font-size: 1.5rem;
+        margin-bottom:12rem;
+      }
+
+    .divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+    }
+    .divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+    }
+    .divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
+    }
+    .divider-custom .divider-custom-icon {
+    color: #2c3e50;
+    font-size: 2rem;
+    }
+    .divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+    }
+    .divider-custom.divider-light .divider-custom-icon {
+    color: #fff;
+    }
+
+    .container_1{
+        border:1px solid rgb(98, 8, 112);
+        border-radius: 10px;
+        padding: 1rem 1rem 1rem 1rem;
+        background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #4a37f3);
+        
+
+    }
+    .container_2{
+    border:1px solid rgb(98, 8, 112);
+    border-radius: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+    /* background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe); */
+    /* background: linear-gradient(to right, #c46bd1, #948ff6, #55acff, #0bc3ff, #36d5f1, #36d5f1, #36d5f1, #36d5f1, #0bc3ff, #55acff, #948ff6, #c46bd1)!important; */
+
+    background: rgb(4,66,91);
+    
+    
+    background: linear-gradient(144deg, rgba(4,66,91,1) 0%, rgba(4,132,184,1) 32%, rgba(200,200,200,1) 100%);
+    
+    } 
+    .container_3{
+        content:none;
+        
+        } 
+    .container_3:hover{
+        border:3px solid rgb(98, 8, 112);
+    }    
+
+    .page-section {
+    padding: 6rem 2rem;
+    
+
+    
+   
+    
+    }
+    .page-section-heading{
+    border:1px solid rgb(98, 8, 112);
+    border-radius: 13px;
+    padding: 1rem 1rem 1rem 1rem;
+    /* background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe); */
+    /* background: linear-gradient(to right, #c46bd1, #948ff6, #55acff, #0bc3ff, #36d5f1, #36d5f1, #36d5f1, #36d5f1, #0bc3ff, #55acff, #948ff6, #c46bd1)!important; */
+    background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #4a37f3);
+    width:auto;
+    }
+
+    .parcours-box{
+        border:1px solid red;
+    border-radius: 30px;
+    padding: 1rem 1rem 1rem 1rem;
+    background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe);
+    margin-left: 2rem;
+    margin-right:2rem;
+    margin-bottom:2rem;
+    }
+    
+    .parcours-text{
+        font-size: x-large;
+    }
+
+    .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: url(../img/sapins-forêt_transp.png);
+    /* background-color: rgba(144,161,179,0.4); */
+    /* opacity:0.4; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: purple;
+    }
+
+
+    
+
+
+    .map-responsive {
+        overflow:hidden;
+        padding-bottom:30%;
+        position:relative;
+        height:0;
+        }
+        
+    .map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+    .card{
+        background-color: aqua;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .card-text{
+        color:black;
+    }
+    .card-body{
+        border:1px solid black;
+        
+    }
+
+    .card-title{
+        color:black;
+    }
+
+    .mention-legale{
+        color:purple;
+    }
+    .mention-legale:hover{
+      color:purple;
+      background:white;
+      border:1px solid black;
+      border-radius: 5px;
+      transition:1s;
+      
+    }
+    .btn-social{
+        color:purple !important;
+    }
+
+    /* .test{
+    width:200px;
+    height: 200px;
+} */
+
+#back-to-top{
+    position : fixed;
+    z-index:10;
+    bottom : 40px;
+    right: 40px;
+    background-color: rgb(56, 55, 55, 0.4);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+     color: white;
+     text-align: center;
+     border-radius: 10px;
+     display: none;
+ }
+/* permet de regler durée et temps de declenchement pour tout les les animate css du site */
+ :root {
+    --animate-duration: 2s;
+    --animate-delay: 1s;
+  }
+
+ @media only screen and (max-width: 1000px){
+     .sphere_1{
+         display: none;
+     }
+ 
+     .sphere_3{
+        display: none;
+    }
+     
+ 
+    }

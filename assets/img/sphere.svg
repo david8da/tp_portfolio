@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="p" x="-.056866" y="-.33433" width="1.1137" height="1.6687" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="31.561523"/>
+  </filter>
+  <linearGradient id="z" x1="455.5" x2="1939" y1="1601.6" y2="1601.6" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="q" x="-.16987" y="-.99871" width="1.3397" height="2.9974" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="94.279112"/>
+  </filter>
+  <filter id="r" x="-.0444" y="-.0444" width="1.0888" height="1.0888" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="20.24568"/>
+  </filter>
+  <filter id="s" x="-.174" y="-.174" width="1.348" height="1.348" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="79.341179"/>
+  </filter>
+  <filter id="t" x="-.0648" y="-.0648" width="1.1296" height="1.1296" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="29.547749"/>
+  </filter>
+  <filter id="u" x="-.4944" y="-.4944" width="1.9888" height="1.9888" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="225.43838"/>
+  </filter>
+  <filter id="v" x="-.7668" y="-.7668" width="2.5336" height="2.5336" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="69.890625"/>
+  </filter>
+  <filter id="w" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="16.684471"/>
+  </filter>
+  <filter id="x" x="-.0204" y="-.0204" width="1.0408" height="1.0408" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="9.4545338"/>
+  </filter>
+  <clipPath id="o">
+   <use width="100%" height="100%" xlink:href="#y"/>
+  </clipPath>
+  <linearGradient id="aa" x1="138.54" x2="1330.9" y1="1049.8" y2="1049.8" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#005266" offset="0"/>
+   <stop stop-color="#005266" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="ab" x1="1283.1" x2="1745.3" y1="1292.9" y2="1135" gradientTransform="translate(-2605.1 -17.199)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#003744" offset="0"/>
+   <stop stop-color="#003744" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <ellipse transform="matrix(1.0807 0 0 1.0807 -131.69 -189.23)" cx="1197.3" cy="1601.6" rx="666.02" ry="113.28" fill="url(#z)" filter="url(#p)" opacity=".527" stroke-width="0" style="paint-order:fill markers stroke"/>
+ <ellipse transform="matrix(.65865 0 0 .72339 206.98 376)" cx="726.56" cy="1585.9" rx="666.02" ry="113.28" filter="url(#q)" stroke-width="0" style="paint-order:fill markers stroke"/>
+ <g transform="matrix(1.0807 0 0 1.0807 -131.69 -189.23)" clip-path="url(#o)">
+  <g id="y">
+   <circle cx="734.52" cy="1055.5" r="574.52" fill="#08a" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle transform="matrix(1.0164 0 0 1.0164 -12.039 -17.3)" cx="734.52" cy="1055.5" r="547.18" fill="#006d88" filter="url(#r)" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle transform="matrix(.8787 0 0 .8787 147.54 92.084)" cx="734.52" cy="1055.5" r="547.18" fill="#00738f" filter="url(#t)" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle transform="matrix(.68528 0 0 .68528 283.75 253.27)" cx="734.52" cy="1055.5" r="547.18" fill="#008eb1" filter="url(#s)" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle transform="matrix(.40989 0 0 .40989 593.45 493.15)" cx="734.52" cy="1055.5" r="547.18" fill="#00a8d1" filter="url(#u)" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle cx="1013.7" cy="846.35" r="109.38" fill="#a5edff" filter="url(#v)" opacity=".733" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle cx="734.73" cy="1049.8" r="556.15" fill="url(#aa)" filter="url(#w)" opacity=".311" stroke-width="0" style="paint-order:fill markers stroke"/>
+   <circle transform="rotate(-70.676)" cx="-765.24" cy="1045.3" r="556.15" fill="url(#ab)" filter="url(#x)" stroke-width="0" style="paint-order:fill markers stroke"/>
+  </g>
+ </g>
+</svg>

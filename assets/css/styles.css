@@ -130,6 +130,7 @@
         border-radius: 50px;
         background-color: rgb(177, 129, 184, 0.3);
         padding: 8px 8px 8px 8px;
+        transition:300ms;
         
     }
     
@@ -142,6 +143,7 @@
         border:3px solid rgb(98, 8, 112);
         border-radius: 8px;
         background-color: rgb(177, 129, 184, 1);
+        transition:500ms;
     }
 
     
@@ -225,8 +227,10 @@
         } 
     .container_3:hover{
         border:3px solid rgb(98, 8, 112);
+        transition: 300ms;
     }    
 
+   
     .page-section {
     padding: 6rem 2rem;
     
@@ -245,16 +249,42 @@
     width:auto;
     }
 
-    .parcours-box{
-        border:1px solid red;
-    border-radius: 30px;
-    padding: 1rem 1rem 1rem 1rem;
-    background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe);
-    margin-left: 2rem;
-    margin-right:2rem;
-    margin-bottom:2rem;
+    .button-section{border:1px solid rgb(98, 8, 112);
+        border-radius: 13px;
+        padding: 1rem 1rem 1rem 1rem;
+        /* background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe); */
+        /* background: linear-gradient(to right, #c46bd1, #948ff6, #55acff, #0bc3ff, #36d5f1, #36d5f1, #36d5f1, #36d5f1, #0bc3ff, #55acff, #948ff6, #c46bd1)!important; */
+        background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #4a37f3);
+        width:160px;
+        height:50px;
+        font-size: x-large;
+        text-align:center;
+        line-height: 15px;
     }
+
+    /* .parcours-box{ */
+        /* border:1px solid red; comment a garder */
+    /* border-radius: 30px; */
+    /* padding: 1rem 1rem 1rem 1rem; */
+    /* background: linear-gradient(to bottom, #25c7e0, #00aff3, #0091fe, #5967ef, #a70bbe); comment a garder*/
+    /* margin-left: 2rem; */
+    /* margin-right:2rem; */
+    /* margin-bottom:2rem; */
+    /* } */
     
+    /* nouveau parcours box */
+    .parcours-box{
+    background-color: aqua;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        margin-left: 2rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+    }
     .parcours-text{
         font-size: x-large;
     }

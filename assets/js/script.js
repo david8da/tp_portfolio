@@ -1,36 +1,51 @@
 // initialisation de AOS
 AOS.init({
-    duration: 1200,
+    duration: 500,
     delay:500,
   });
 
+// mettre une animation de chargement
+  function chargement(){
+    document.getElementById('chargement').style.display='none';
+    document.getElementById('site').style.visibility='visible';
+ }
+// fin animation de chargement
 
 // Function strobe pour mettre un id en clignotement
-
-var arrayColors = new Array("rgb(255,255,255,1)","rgb(255,255,255,0.95)","rgb(255,255,255,0.90)","rgb(255,255,255,0.85)","rgb(255,255,255,0.80)","rgb(255,255,255,0.75)","rgb(255,255,255,0.70)","rgb(255,255,255,0.65)","rgb(255,255,255,0.60)","rgb(255,255,255,0.55)","rgb(255,255,255,0.50)","rgb(255,255,255,0.45)","rgb(255,255,255,0.40)","rgb(255,255,255,0.35)","rgb(255,255,255,0.30)","rgb(255,255,255,0.25)","rgb(255,255,255,0.20)","rgb(255,255,255,0.15)","rgb(255,255,255,0.10)","rgb(255,255,255,0)");
-
 strobeEffect();
 
+var indiceOpacities =0;
 
-var indiceColorIntense=0;
 var incrementTwoDirections=1;
 
- function strobeEffect(){
-    color=arrayColors[indiceColorIntense];
+function strobeEffect(){
+            
+    arrayOpacities = ["1","0.95","0.90","0.85","0.80","0.75","0.70","0.65","0.60","0.55","0.50","0.45","0.40","0.35","0.30","0.25","0.20","0.15","0.10","0.05","0"];
+    
+    opacity=arrayOpacities[indiceOpacities];
     // on change le signe de l'increment pour balayer le tableau dans un sens puis dans l'autre
-    indiceColorIntense+=incrementTwoDirections;if (indiceColorIntense==20) incrementTwoDirections-=2;if (indiceColorIntense==0) incrementTwoDirections+=2;
+    
+    indiceOpacities+=incrementTwoDirections;if (indiceOpacities==20) incrementTwoDirections-=2;if (indiceOpacities==0) incrementTwoDirections+=2;
     // vitesse du fading se regle ici en ms
     xx=setTimeout("strobeEffect()",200);  
     
     var elementsStrobing = document.getElementsByClassName('strobe')
     for (let i = 0 ; i < elementsStrobing.length ; i++ ){
-        elementsStrobing[i].style.color = color;
+        
+        elementsStrobing[i].style.opacity = opacity;
     }
-    // document.getElementById('strobe').style.color = color;
+    
 }
 
 
+
+
+
+
+
 // Fin function strobe
+
+
   
 
 //animation fleche pour revenir au top

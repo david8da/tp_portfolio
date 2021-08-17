@@ -16,8 +16,12 @@
     /* referring directly to the animation's @keyframe declaration */
     /* animation-duration: 3s;  */
     /* don't forget to set a duration! */
+    overflow-x: hidden;
+    /* sans overflow-x: hidden; pas moyen de virer le scroll horizontal */
     }
-
+    
+    
+    
     .relative{
         position:relative;
         
@@ -72,6 +76,17 @@
         height: 350px;
     }
     
+    /* .icone-media{
+        color:rgb(241, 82, 43)!important;
+        background-color:none!important;
+        
+    } */
+    
+    .img-media{
+        height: 42px;
+        width:42px;
+        
+    }
     
     .bg-premier{background: linear-gradient(to top, rgb(37, 199, 224, 0.7) , rgb(0, 175, 243, 0.6), rgb(0, 145, 254, 0.5), rgb(89, 103, 239, 0.4), rgb(167, 11, 190, 0.2))!important;}
     .bg-secondary{
@@ -219,8 +234,25 @@
     
     
     background: linear-gradient(144deg, rgba(4,66,91,1) 0%, rgba(4,132,184,1) 32%, rgba(200,200,200,1) 100%);
-    
-    } 
+    /* j'essaye une pulse animation ci-dessous */
+    box-shadow: 0px 0px 1px 1px #0000001a;
+   
+}
+/* pulse animation */
+.pulse {
+    animation: pulse-animation 2s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+  }
+  /* fin pulse animation */
+
     .container_3{
         content:none;
         
@@ -380,6 +412,57 @@
     --animate-duration: 2s;
     --animate-delay: 1s;
   }
+
+  
+/* code pour une animation de chargement */
+  .spinner {
+    margin: 100px auto 0;
+     width: 80px;
+     text-align: center;
+   }
+   
+   .spinner > div {
+     width: 12px;
+     height: 12px;
+     background-color: #971a4b;
+     border-radius: 100%;
+     display: inline-block;
+     -webkit-animation: sk-bouncedelay 0.8s infinite ease-in-out both;
+     animation: sk-bouncedelay 0.8s infinite ease-in-out both;
+   }
+   
+   
+   .spinner .dot2 {
+     -webkit-animation-delay: 0.1s;
+     animation-delay: 0.1s;
+   }
+   
+   .spinner .dot3 {
+     -webkit-animation-delay: 0.2s;
+     animation-delay: 0.2s;
+   }
+   
+   .spinner .dot4 {
+     -webkit-animation-delay: 0.3s;
+     animation-delay: 0.3s;
+   }
+   
+   .spinner .dot5 {
+     -webkit-animation-delay: 0.4s;
+     animation-delay: 0.4s;
+   }
+   
+   @-webkit-keyframes sk-bouncedelay {
+     0%, 100% { -webkit-transform: scale(0) }
+     10% { -webkit-transform: scale(1) }
+     
+   }
+   
+   @keyframes sk-bouncedelay {
+     0%, 100% { transform: scale(0);  }
+     10% { transform: scale(1);  }   
+   }
+  /* fin code pour une animation de chargement */
 
  @media only screen and (max-width: 1000px){
      .sphere_1{

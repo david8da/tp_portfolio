@@ -188,5 +188,113 @@ for (let i = 0; i < elementsNavItems.length; i++) {
 
 };
 
+// clique de souris sur le texte "voir plus" en overlay sur les cards realisations
+//l'overlay "voir plus" disparait une fois cliqué dessus et reapparait quand on va cliquer sur un autre overlay d'un autre card
 
+ 
+function cliqueOverlayRea(id) {
 
+    switch (id)
+    {
+    case 'img_rea_1':
+    
+        element = document.getElementById(id);
+        element.setAttribute('src', 'assets/img/plantysnaturacbd.com.png');
+        element2  = document.getElementById('middle_overlay_rea_1');
+        element2.style.display="none";
+        element3  = document.getElementById('middle_overlay_rea_2');
+        element3.style.display="block";
+        element4  = document.getElementById('middle_overlay_rea_3');
+        element4.style.display="block";
+        element5  = document.getElementById('middle_overlay_rea_4');
+        element5.style.display="block";
+        break;
+    
+    case 'img_rea_2':
+
+        element = document.getElementById(id);
+        element.setAttribute('src', 'assets/img/www.aydanarea.com.png');
+        element2  = document.getElementById('middle_overlay_rea_2');
+        element2.style.display="none";
+        element3  = document.getElementById('middle_overlay_rea_1');
+        element3.style.display="block";
+        element4  = document.getElementById('middle_overlay_rea_3');
+        element4.style.display="block";
+        element5  = document.getElementById('middle_overlay_rea_4');
+        element5.style.display="block";
+        break;
+
+    case 'img_rea_3':
+
+        element = document.getElementById(id);
+        element.setAttribute('src', 'assets/img/tp_le_fiasco.png');
+        element2  = document.getElementById('middle_overlay_rea_3');
+        element2.style.display="none";
+        element3  = document.getElementById('middle_overlay_rea_1');
+        element3.style.display="block";
+        element4  = document.getElementById('middle_overlay_rea_2');
+        element4.style.display="block";
+        element5  = document.getElementById('middle_overlay_rea_4');
+        element5.style.display="block";
+        break;
+
+    case 'img_rea_4':
+
+        element = document.getElementById(id);
+        element.setAttribute('src', 'assets/img/votre_blog_rando.png');
+        element2  = document.getElementById('middle_overlay_rea_4');
+        element2.style.display="none";
+        element3  = document.getElementById('middle_overlay_rea_1');
+        element3.style.display="block";
+        element4  = document.getElementById('middle_overlay_rea_2');
+        element4.style.display="block";
+        element5  = document.getElementById('middle_overlay_rea_3');
+        element5.style.display="block";
+        break;
+    }
+}
+    
+//Il faut detecter qu'on a cliqué en dehors d'un card pour revenir à un affichage plus court de ce card
+    
+var specifiedElement = document.getElementById('card_1');
+
+document.addEventListener('click', function(event) {
+    var isClickInside = specifiedElement.contains(event.target);
+  
+    if (isClickInside==false) {
+        element = document.getElementById('img_rea_1');
+        element.setAttribute('src', 'assets/img/plantysnaturacbd.com_small.png');
+  } 
+  
+});
+
+var specifiedElement2 = document.getElementById('card_2');
+
+document.addEventListener('click', function(event) {
+  var isClickInside2 = specifiedElement2.contains(event.target);
+  if (isClickInside2==false) {
+        element = document.getElementById('img_rea_2');
+        element.setAttribute('src', 'assets/img/www.aydanarea.com_small.png');
+  } 
+});
+
+var specifiedElement3 = document.getElementById('card_3');
+
+document.addEventListener('click', function(event) {
+  var isClickInside3 = specifiedElement3.contains(event.target);
+  if (isClickInside3==false) {
+        element = document.getElementById('img_rea_3');
+        element.setAttribute('src', 'assets/img/tp_le_fiasco_small.png');
+  } 
+});
+
+var specifiedElement4 = document.getElementById('card_4');
+
+document.addEventListener('click', function(event) {
+  var isClickInside4 = specifiedElement4.contains(event.target);
+  if (isClickInside4==false) {
+    element = document.getElementById('img_rea_4');
+    element.setAttribute('src', 'assets/img/votre_blog_rando_small.png');
+    
+  } 
+});

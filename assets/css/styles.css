@@ -360,6 +360,7 @@
         -webkit-backdrop-filter: blur( 7.5px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
+        position: relative;
     }
     .card-text{
         color:black;
@@ -368,10 +369,51 @@
         border:1px solid black;
         
     }
+    
 
     .card-title{
         color:black;
     }
+    
+    .img_rea {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+    .middle_overlay_rea{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+
+    .text_overlay_rea{
+        background-color: #4a37f3CC;
+        color: white;
+        border:1px solid white;
+        border-radius:3px;
+        font-size: 20px;
+        padding: 16px 32px;
+    }
+
+    
+
+    .card:hover .img_rea {
+        opacity: 0.3;
+      }
+
+    .card:hover .middle_overlay_rea {
+        opacity: 1;
+      }
 
     .mention-legale{
         color:purple;
